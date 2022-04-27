@@ -82,6 +82,25 @@ nav a{
     flex: 50%;
     background-color: blueviolet;
 }
+#part-2{
+    margin-top: 200px;
+}
+#part-2 h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 34px;
+}
+.box-container{
+    background-color: cyan;
+    border-radius: 24px;
+}
+.box-container img{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+
 footer{
     margin-top: 3000px;
 }
