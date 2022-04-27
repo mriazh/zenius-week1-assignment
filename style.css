@@ -39,6 +39,47 @@ nav a{
     font-weight: 500;
     border-radius: 30px;
 }
-.part-1{
-    margin-top: 100px;
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+#part-1{
+    margin-top: 200px;
+}
+.left{
+    flex: 50%;
+    background-color: cornflowerblue;
+    /* padding: 100px; */
+}
+.left h1{
+    font-weight: 500;
+    /* margin: 30px 0px 0px 100px; */
+    font-size: 46px;
+    line-height: 60px;
+}
+.left h1 span{
+    background-color: #FFDB57;
+}
+.left p{
+    font-weight: 400;
+    margin: 20px 0px 40px 100px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.left a{
+    background-color: #11296B;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    
+}
+.right{
+    flex: 50%;
+    background-color: blueviolet;
+}
+footer{
+    margin-top: 3000px;
 }
