@@ -53,12 +53,13 @@ nav a{
 }
 .left h1{
     font-weight: 500;
-    /* margin: 30px 0px 0px 100px; */
-    font-size: 46px;
+    margin: 30px 0px 0px 100px;
+    font-size: 45px;
     line-height: 60px;
 }
 .left h1 span{
-    background-color: #FFDB57;
+    /* background-color: #FFDB57; */
+    background: linear-gradient(to bottom, #fff 19%,#FFDB57 5%, #FFDB57 5%, #FFDB57 90%, #fff 2%)
 }
 .left p{
     font-weight: 400;
@@ -72,9 +73,10 @@ nav a{
     text-decoration: none;
     font-weight: 500;
     margin-left: 100px;
-    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 30px;
     border-radius: 30px;
-    
 }
 .right{
     flex: 50%;
